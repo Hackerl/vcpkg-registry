@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO Hackerl/aio
-        REF 5c855b5af5efe356273bc96438c1fac978674bbe
-        SHA512 f9dafc501013e26615234b5fd97fd05bcd100baa340e28fa0255828a8857974041c5bbb7ff249020155ec8cef85ac670b77c41ff9b44c574aedb6788c6d7715f
+        REF a04a550d616a7a901acf906b74b146bd9af965ab
+        SHA512 cf5b91c955382e1a3d8a6ac5ad4de3e4debb173687470db0574904550e71f880e1d06dd62405b4e3e260171ec1fb6b9ec5dcc2cf3e9c8d0a94c6448b03a6d9f6
 )
 
 vcpkg_check_features(
