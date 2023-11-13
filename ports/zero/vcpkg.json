@@ -1,9 +1,10 @@
 {
   "name": "zero",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Hackerl' private C++20 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
+    "fmt",
     {
       "name": "libiconv",
       "platform": "windows | android"
