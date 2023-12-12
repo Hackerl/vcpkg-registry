@@ -1,6 +1,6 @@
 {
   "name": "asyncio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "C++20 coroutine network framework",
   "homepage": "https://github.com/Hackerl/asyncio",
   "dependencies": [
@@ -15,10 +15,7 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
-    {
-      "name": "zero",
-      "version>=": "1.0.5"
-    }
+    "zero"
   ],
   "default-features": [
     "openssl"
@@ -26,6 +23,18 @@
   "features": {
     "embedded": {
       "description": "Embedding CA certs"
+    },
+    "legacy": {
+      "description": "Compatible with older Windows",
+      "supports": "windows",
+      "dependencies": [
+        {
+          "name": "zero",
+          "features": [
+            "legacy"
+          ]
+        }
+      ]
     },
     "openssl": {
       "description": "Support for openssl",
