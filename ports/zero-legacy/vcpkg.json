@@ -1,13 +1,15 @@
 {
   "name": "zero-legacy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hackerl' private C++17 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
+    "fmt",
     {
       "name": "libiconv",
       "platform": "windows | android"
     },
+    "range-v3",
     "span-lite",
     "tl-expected",
     {
