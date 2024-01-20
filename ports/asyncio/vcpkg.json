@@ -1,11 +1,21 @@
 {
   "name": "asyncio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "C++20 coroutine network framework",
   "homepage": "https://github.com/Hackerl/asyncio",
   "dependencies": [
-    "curl",
-    "libevent",
+    {
+      "name": "curl",
+      "features": [
+        "openssl"
+      ]
+    },
+    {
+      "name": "libevent",
+      "features": [
+        "openssl"
+      ]
+    },
     "nlohmann-json",
     {
       "name": "vcpkg-cmake",
@@ -16,9 +26,6 @@
       "host": true
     },
     "zero"
-  ],
-  "default-features": [
-    "openssl"
   ],
   "features": {
     "embedded": {
@@ -32,23 +39,6 @@
           "name": "zero",
           "features": [
             "legacy"
-          ]
-        }
-      ]
-    },
-    "openssl": {
-      "description": "Support for openssl",
-      "dependencies": [
-        {
-          "name": "curl",
-          "features": [
-            "openssl"
-          ]
-        },
-        {
-          "name": "libevent",
-          "features": [
-            "openssl"
           ]
         }
       ]
