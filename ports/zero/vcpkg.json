@@ -1,6 +1,6 @@
 {
   "name": "zero",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Hackerl' private C++20 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
@@ -18,11 +18,5 @@
       "name": "vcpkg-cmake-config",
       "host": true
     }
-  ],
-  "features": {
-    "legacy": {
-      "description": "Compatible with older Windows",
-      "supports": "windows"
-    }
-  }
+  ]
 }
