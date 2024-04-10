@@ -1,20 +1,14 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO Hackerl/zero
-        REF b0f70d0c4b1fbd6b7b46c38714ffb858c082b2b2
-        SHA512 a23b6303aa97f39b713413f41fe696c39f6b585e37dedd0a74bf4b13dd70242ae1fbf6639773b95b59a9e207fecf6064f17b5e9f97bb3680e3f8e139f5653caa
-)
-
-vcpkg_check_features(
-        OUT_FEATURE_OPTIONS FEATURE_OPTIONS
-        FEATURES legacy ZERO_LEGACY_NT
+        REF 5e8f98237f06b6ff6817d2e9b88a41206c75a376
+        SHA512 aebe59b3672f2df9fcde297ec138a06c54f13aa4fbdc8cf5c23d10949b6c3e91bdc1e58fea08a0f97944ae483939676a6ad422235c3db25d8712d355e3ba2489
 )
 
 vcpkg_configure_cmake(
         SOURCE_PATH "${SOURCE_PATH}"
         PREFER_NINJA
         OPTIONS
-        ${FEATURE_OPTIONS}
         -DBUILD_TESTING=OFF
 )
 
