@@ -1,7 +1,7 @@
 {
   "name": "zero",
-  "version": "1.0.8-1",
-  "description": "Hackerl' private C++20 library",
+  "version": "1.0.9",
+  "description": "Hackerl' private C++23 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
     "fmt",
@@ -9,7 +9,6 @@
       "name": "libiconv",
       "platform": "windows | android"
     },
-    "tl-expected",
     {
       "name": "vcpkg-cmake",
       "host": true
