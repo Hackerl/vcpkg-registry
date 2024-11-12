@@ -1,6 +1,6 @@
 {
   "name": "zero-legacy",
-  "version": "1.0.3-1",
+  "version": "1.0.4",
   "description": "Hackerl' private C++17 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
