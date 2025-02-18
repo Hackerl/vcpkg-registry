@@ -1,6 +1,6 @@
 {
   "name": "zero",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Hackerl' private C++23 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
