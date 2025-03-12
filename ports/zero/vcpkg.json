@@ -1,13 +1,13 @@
 {
   "name": "zero",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Hackerl' private C++23 library",
   "homepage": "https://github.com/Hackerl/zero",
   "dependencies": [
     "fmt",
     {
       "name": "libiconv",
-      "platform": "windows | android"
+      "platform": "windows"
     },
     {
       "name": "vcpkg-cmake",
