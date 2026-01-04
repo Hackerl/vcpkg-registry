@@ -1,6 +1,6 @@
 {
   "name": "asyncio",
-  "version": "1.0.6-2",
+  "version": "1.0.6-3",
   "description": "C++23 coroutine network framework",
   "homepage": "https://github.com/Hackerl/asyncio",
   "dependencies": [
