@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO Hackerl/zero
-        REF 1328d097070cbbd2a6381b36c388709e209f98c5
-        SHA512 a4ab6b8cf057279c2fbf4db26082f9df597eb29379e9411db6222870da6a849bb06ee39fae49c791cac84b2f74fa78a73bf20857922c287c734e7bd199ca9296
+        REF f64dafd168063074b4e321e3e442ba14febd2166
+        SHA512 4b8d6c319bc87ee5b1ccdb2fe338f6adeea24831b67cb5bd0ed96a0224ecaf409ff57e03c3c3a3c467969b41ade13e1e53cb6a50026664a0140ddb84c3a9bb2a
 )
 
 vcpkg_configure_cmake(
