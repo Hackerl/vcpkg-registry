@@ -1,8 +1,13 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO Hackerl/asyncio
-        REF 1fc7d0cd906c21a48c4fb269ca2d0f0085ffe629
-        SHA512 2b66a8f498e1c4a5c8d5ed9899549107163a828e9697f856c37f6a43e9909e80ec02a662548bd555e292b8c3c1384ab9aeae2a4e40d54044d40f0a3ca46416e3
+        REF a074cecfa1bff847d399a660b07c83b6a9c6d613
+        SHA512 eaabb689505d7be0d9c069b1f4aa92efc9722aa4329e8024eed1eedd4c172fddda30d65bc1c4b1d35a50077995a6304a55ac7d0aa6c22da384c06e30cda7ef90
+)
+
+vcpkg_check_features(
+        OUT_FEATURE_OPTIONS FEATURE_OPTIONS
+        FEATURES embed-ca ASYNCIO_EMBED_CA_CERT
 )
 
 vcpkg_configure_cmake(

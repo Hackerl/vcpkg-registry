@@ -1,6 +1,6 @@
 {
   "name": "asyncio",
-  "version": "1.0.6-5",
+  "version": "1.0.6-6",
   "description": "C++23 coroutine network framework",
   "homepage": "https://github.com/Hackerl/asyncio",
   "dependencies": [
@@ -19,5 +19,10 @@
     },
     "zero",
     "zlib"
-  ]
+  ],
+  "features": {
+    "embed-ca": {
+      "description": "Use built-in CA certificates instead of system certificates"
+    }
+  }
 }
