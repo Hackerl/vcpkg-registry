@@ -1,6 +1,6 @@
 {
   "name": "asyncio",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "C++23 coroutine network framework",
   "homepage": "https://github.com/Hackerl/asyncio",
   "dependencies": [
@@ -21,8 +21,23 @@
     "zlib"
   ],
   "features": {
+    "c-ares": {
+      "description": "Use c-ares for DNS resolution, enabling custom DNS server configuration",
+      "dependencies": [
+        "c-ares",
+        {
+          "name": "curl",
+          "features": [
+            "c-ares"
+          ]
+        }
+      ]
+    },
     "embed-ca": {
       "description": "Use built-in CA certificates instead of system certificates"
+    },
+    "stacktrace": {
+      "description": "Enable stacktrace support"
     }
   }
 }
